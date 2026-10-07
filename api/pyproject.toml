@@ -28,7 +28,7 @@ exclude = [
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
-addopts = "--cov --cov-report=term-missing --cov-report=html --cov-report=xml"
+# addopts = "--cov --cov-report=term-missing"
 testpaths = ["tests"]
 
 [tool.coverage.run]
